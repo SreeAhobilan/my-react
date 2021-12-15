@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.movie-poster{
+  height:350px;
+  width:340px;
+  object-fit: cover;
+}
+
+.movie-specs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movie-container{
+  width:340px;
+  border: 2px solid black;
+  overflow: hidden;
+  padding: 10px;
+  background-color:rgb(85, 132, 172);
+  color:white;
+  height:620px;
+  border-radius: 10px;
+}
+.list{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+  padding-top: 25px;
+}
+body{
+  background-color: rgb(34, 87, 126);
+}
+h1{
+  text-align: center;
+  color: white;
 }
